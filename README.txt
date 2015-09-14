@@ -196,3 +196,11 @@ mainDirectory
 
 Note: Each subdirectory within "Calculations_X" will contain separate files
 for both symmetric and asymmetric models.
+
+*******************************************************************************
+
+Addtional files not mentioned in methodology:
+
+Any of the recreateFigureX.py files uploaded to this repository were used to 
+generate similar figures as those that were in the Martin et. al paper for
+validation purposes for our research.
