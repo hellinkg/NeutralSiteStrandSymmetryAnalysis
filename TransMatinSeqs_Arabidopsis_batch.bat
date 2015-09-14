@@ -1,0 +1,8 @@
+REM Executes the TransMatinSeqs.py for the Arabidopsis thaliana genome
+ECHO OFF
+PATH C:\Python27
+python TransMatinSeqs.py Arabidopsis_thaliana.TAIR10.27.dna.chromosome. geneLocationsArabidopsis\GeneLocations1.txt 1 prm_files_arabidopsis/ ArabidopsisthalianaImportantFamilyInstances.txt 0 SubMatinGenesA\SubMatinGenes1.txt
+python TransMatinSeqs.py Arabidopsis_thaliana.TAIR10.27.dna.chromosome. geneLocationsArabidopsis\GeneLocations2.txt 2 prm_files_arabidopsis/ ArabidopsisthalianaImportantFamilyInstances.txt 0 SubMatinGenesA\SubMatinGenes2.txt
+python TransMatinSeqs.py Arabidopsis_thaliana.TAIR10.27.dna.chromosome. geneLocationsArabidopsis\GeneLocations3.txt 3 prm_files_arabidopsis/ ArabidopsisthalianaImportantFamilyInstances.txt 0 SubMatinGenesA\SubMatinGenes3.txt
+python TransMatinSeqs.py Arabidopsis_thaliana.TAIR10.27.dna.chromosome. geneLocationsArabidopsis\GeneLocations4.txt 4 prm_files_arabidopsis/ ArabidopsisthalianaImportantFamilyInstances.txt 0 SubMatinGenesA\SubMatinGenes4.txt
+python TransMatinSeqs.py Arabidopsis_thaliana.TAIR10.27.dna.chromosome. geneLocationsArabidopsis\GeneLocations5.txt 5 prm_files_arabidopsis/ ArabidopsisthalianaImportantFamilyInstances.txt 0 SubMatinGenesA\SubMatinGenes5.txt
